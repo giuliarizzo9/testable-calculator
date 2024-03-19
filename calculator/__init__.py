@@ -3,7 +3,7 @@ Number = int | float
 class Calculator:
 
     def __init__(self):
-        self.expression = ""
+        self.expression = "0"
 
     def _ensure_is_digit(self, value: int | str):
         if isinstance(value, str):
