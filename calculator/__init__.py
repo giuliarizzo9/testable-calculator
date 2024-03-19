@@ -1,7 +1,5 @@
 Number = int | float
 
-hellooo
-
 class Calculator:
 
     def __init__(self):
